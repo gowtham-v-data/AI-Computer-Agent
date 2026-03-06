@@ -8,7 +8,7 @@ import re
 # Suppress deprecation warnings
 warnings.filterwarnings('ignore', category=FutureWarning)
 
-API_KEY = "AIzaSyAVbaO9Sety2NH8WrS6QAVc3M_BZLnQARI"
+API_KEY = "Your API key"
 
 client = genai.Client(api_key=API_KEY)
 
