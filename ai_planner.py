@@ -4,7 +4,7 @@ import warnings
 # Suppress the deprecation warning
 warnings.filterwarnings('ignore', category=FutureWarning)
 
-genai.configure(api_key="AIzaSyAVbaO9Sety2NH8WrS6QAVc3M_BZLnQARI")
+genai.configure(api_key="your api key")
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
